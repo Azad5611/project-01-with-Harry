@@ -1,0 +1,113 @@
+body {
+    font-family: 'Balsamiq Sans', cursive;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(10, 151, 211);
+    background-repeat: no-repeat;
+
+}
+body image{
+    background-size: 2px;
+}
+
+.left {
+    display: inline-block;
+    border: 2px solid blueviolet;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+}
+
+.left img {
+    width: 80px;
+    margin: 20px;
+}
+
+.mid {
+    display: block;
+    width: 36%;
+    margin: 20px auto;
+    border: 2px solid goldenrod;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    border: 2px solid fuchsia;
+    color: black;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: bisque;
+    text-decoration: none;
+    padding: 20px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a .active {
+    text-decoration: underline;
+    color: rgb(230, 7, 163);
+}
+
+.btn {
+    font-family: 'Balsamiq Sans', cursive;
+    margin: 0 9px;
+    color: rgb(255, 38, 0);
+    background-color: aliceblue;
+    padding: 5px 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: turquoise;
+    color: violet;
+}
+
+.container {
+    border: 2px solid tomato;
+    margin: 300px 10px;
+    padding: 50px 100px;
+    width: 300px;
+    border-radius: 20px 10px 20px 10px;
+}
+.container h1{
+    text-align: center;
+}
+.form-group input {
+    font-family: 'Balsamiq Sans', cursive;
+text-align: center;
+display: block;
+width: 300px;
+padding: 1px;
+margin: 6px auto;
+background-color: yellow;
+border-radius: 6px;
+}
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+
+
+}
